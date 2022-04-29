@@ -10,21 +10,20 @@ namespace ShoppingCartApp
         {
             ShoppingCart cart = new ShoppingCart();
 
-            Entertainment entertainment = new Entertainment("Nintendo 3DS", 2500.99);
+            Entertainment entertainment = new Entertainment("Nintendo 3DS", 2500.00);
             cart.AddShoppingCartItems(entertainment);
 
-            entertainment = new Entertainment("Nintendo 2DS", 1500.99);
+            entertainment = new Entertainment("Nintendo 2DS", 1500.00);
             cart.AddShoppingCartItems(entertainment);
 
-            Sportsequipment sportsequipment = new Sportsequipment("Dumbellbar", 500.00);
+            Sportsequipment sportsequipment = new Sportsequipment("Skullkrusher", 900.99);
             cart.AddShoppingCartItems(sportsequipment);
 
-            sportsequipment = new Sportsequipment("Kettlebell", 400.99);
+            sportsequipment = new Sportsequipment("Kettlebell",400.99);
             cart.AddShoppingCartItems(sportsequipment);
 
             sportsequipment = new Sportsequipment("weight plate", 250.00);
             cart.AddShoppingCartItems(sportsequipment);
-
 
             // This displays a list of my items
 
